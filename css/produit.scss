@@ -1,0 +1,161 @@
+.container-fluid {
+    text-align: center;
+    position: relative;
+    
+    h1{
+        color: rgb(212, 65, 46);
+    }
+}
+
+section {
+    .row {
+        .col {
+            background-color: antiquewhite;
+            border-radius: 12px;
+            height: 320px;
+            margin-left: 13px;
+            img {
+                height: 70%;
+                border-radius: 12px;
+            }
+
+            h3 {
+                color: black;
+            }
+
+            .container {
+                p{
+                    color: rgb(21, 143, 21);
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                    margin-left: 123px;
+                }
+
+                button {
+                    height: 40px;
+                    width: 75px;
+                    transform: translateX(-45px);
+                }
+            }
+        }
+    }
+}
+
+.container {
+    transform: translateX(45px);
+    margin-top: 90px;
+
+
+    button {
+        width: 345px;
+        height: 40px;
+        margin-left: 23px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+/* Responsive */
+/* Medium Screens */
+@media all and (max-width: 1327px) {
+    section {
+        .row {
+            .col {
+                background-color: antiquewhite;
+                border-radius: 12px;
+                height: 400px;
+                margin-left: 13px;
+                img {
+                    height: 70%;
+                    border-radius: 12px;
+                }
+    
+                h3 {
+                    color: black;
+                }
+    
+                .container {
+                  
+    
+                    p{
+                        color: rgb(21, 143, 21);
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                      
+                    }
+    
+                    button {
+                        height: 30px;
+                        width: 65px;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+/* Tablettes */
+@media all and (max-width: 991px) {
+    
+section {
+    .row {
+        .col {
+          
+            height: 300px;
+            margin-right: 13px;
+            margin-bottom: 12px;
+            img {
+                width: 80%;
+                height: 55%;
+            }
+
+            .container {
+               
+               
+
+                p{
+                    color: rgb(21, 143, 21);
+                    font-weight: bold;
+                    font-size: 1rem;
+                    margin-top: 5px;
+                }
+
+                button {
+                    text-align: center;
+                    height: 40px;
+                    width: 55px;
+                    margin-right: 32px;
+                }
+            }
+        }
+    }
+}
+
+.container {
+    transform: translateX(75px);
+    margin-top: 90px;
+
+
+    button {
+        width: 145px;
+        height: 40px;
+        margin-left: 23px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+}
+
+
+
+/* Mobile */
+@media all and (max-width: 767px) {
+
+}

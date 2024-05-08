@@ -1,0 +1,162 @@
+nav {
+  
+
+    .navbar-brand {
+        font-family:"Poppins", sans-serif;
+
+        span {
+            font-size: 2rem;
+            color: rgb(185, 39, 39);
+            font-weight: 300;
+        }
+
+        .logo {
+            font-size: 1rem;
+            color: rgb(255, 255, 255);
+            font-weight: 100;
+        }
+    }
+
+    ul {
+        transform: translateX(460px);
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+           }
+
+          
+        li {
+           margin-right:30px ;
+
+         
+        }
+    }
+
+}
+
+
+
+
+section {
+
+    position: relative;
+    top: 5vh;
+    text-align: center;
+   
+
+    h1 {
+        font-size:4rem;
+
+        .logo {
+            color: rgb(226, 66, 18);
+            font-family:"Poppins", sans-serif;
+            font-weight: 900;
+        }
+    }
+    p{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    button {
+        margin-top: 27px;
+        margin-left: 28px;
+        border: none;
+        text-align: center;
+        width: 200px;
+        transform: translateX(400px);
+     
+        .btn {
+            
+           
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+           }
+
+    }
+}
+
+  
+    
+
+/* Responsive */
+/* Medium Screens */
+@media all and (max-width: 1327px) {
+    
+}
+
+
+/* Tablettes */
+@media all and (max-width: 991px) {
+   
+    nav {
+  
+
+        .navbar-brand {
+            font-family:"Poppins", sans-serif;
+    
+            span {
+                font-size: 2rem;
+                color: rgb(138, 31, 31);
+                font-weight: 300;
+            }
+    
+            .logo {
+                font-size: 1rem;
+                color: rgb(255, 255, 255);
+                font-weight: 100;
+            }
+        }
+    
+        ul {
+            transform: translateX(10px);
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+               }
+    
+              
+            li {
+               margin-right:30px ;
+    
+             
+            }
+        }
+    
+    }
+   
+    section{
+
+        h1 {
+            font-size: 3rem;
+        }
+
+    }
+
+    .consulter {
+        transform: translateX(120px);     
+    
+    }
+
+    .reponse {
+        transform: translateX(120px);
+
+    }
+    
+
+}
+
+
+
+/* Mobile */
+@media all and (max-width: 767px) {
+
+}
+

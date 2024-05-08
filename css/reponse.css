@@ -1,0 +1,96 @@
+nav .navbar-brand {
+  font-family: "Poppins", sans-serif;
+}
+nav .navbar-brand span {
+  font-size: 2rem;
+  color: rgb(185, 39, 39);
+  font-weight: 300;
+}
+nav .navbar-brand .logo {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+nav ul {
+  transform: translateX(460px);
+}
+nav ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+nav ul li {
+  margin-right: 30px;
+}
+
+section {
+  position: relative;
+  top: 5vh;
+  text-align: center;
+}
+section h1 {
+  font-size: 4rem;
+}
+section h1 .logo {
+  color: rgb(226, 66, 18);
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+section p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+section button {
+  margin-top: 27px;
+  margin-left: 28px;
+  border: none;
+  text-align: center;
+  width: 200px;
+  transform: translateX(400px);
+}
+section button a {
+  text-decoration: none;
+  color: white;
+}
+section button a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/* Responsive */
+/* Medium Screens */
+/* Tablettes */
+@media all and (max-width: 991px) {
+  nav .navbar-brand {
+    font-family: "Poppins", sans-serif;
+  }
+  nav .navbar-brand span {
+    font-size: 2rem;
+    color: rgb(138, 31, 31);
+    font-weight: 300;
+  }
+  nav .navbar-brand .logo {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+  }
+  nav ul {
+    transform: translateX(10px);
+  }
+  nav ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  nav ul li {
+    margin-right: 30px;
+  }
+  section h1 {
+    font-size: 3rem;
+  }
+  .consulter {
+    transform: translateX(120px);
+  }
+  .reponse {
+    transform: translateX(120px);
+  }
+}
+/* Mobile *//*# sourceMappingURL=reponse.css.map */

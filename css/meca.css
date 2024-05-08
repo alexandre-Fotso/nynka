@@ -1,0 +1,46 @@
+section {
+  position: relative;
+  top: 25vh;
+  text-align: center;
+}
+section h1 {
+  font-size: 4rem;
+}
+section h1 .logo {
+  color: rgb(228, 56, 56);
+}
+section p {
+  font-size: 1rem;
+}
+section button {
+  margin-top: 27px;
+  border: none;
+  text-align: center;
+  width: 100px;
+  transform: translateX(814px);
+}
+section button .btn {
+  width: 100px;
+}
+section button a {
+  text-decoration: none;
+  color: white;
+}
+
+section .email {
+  width: 300px;
+  transform: translateX(833px);
+}
+
+/* Responsive */
+/* Medium Screens */
+/* Tablettes */
+@media all and (max-width: 991px) {
+  section h1 {
+    font-size: 3rem;
+  }
+  .consulter {
+    transform: translateX(320px);
+  }
+}
+/* Mobile *//*# sourceMappingURL=meca.css.map */
